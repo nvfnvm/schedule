@@ -1,0 +1,4 @@
+<div class="progress-container" style="text-align: center; padding: 20px;">
+    <h2>Weekly Progress: {{ calculateProgress() | number:'1.1-1' }}%</h2>
+    <mat-progress-spinner mode="determinate" [value]="calculateProgress()"></mat-progress-spinner>
+</div>

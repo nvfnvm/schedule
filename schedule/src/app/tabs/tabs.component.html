@@ -1,0 +1,14 @@
+<div class="tabs-container">
+  <h1 class="schedule">Schedule</h1>
+  <mat-tab-group>
+    <mat-tab label="Vika & Nastya" [disabled]="isTabDisabled(1)">
+      <app-progress></app-progress>
+    </mat-tab>
+    <mat-tab label="Nastya & Marina" [disabled]="isTabDisabled(2)">
+      <app-progress></app-progress>
+    </mat-tab>
+    <mat-tab label="Pasha" [disabled]="isTabDisabled(3)">
+      <app-progress></app-progress>
+    </mat-tab>
+  </mat-tab-group>
+</div>
